@@ -1,4 +1,4 @@
-package cat.itacademy.s04.t01.Level1.userapi.controllers;
+package cat.itacademy.s04.t01.level1.userapi.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
