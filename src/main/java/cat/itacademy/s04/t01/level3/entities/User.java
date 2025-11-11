@@ -1,0 +1,29 @@
+package cat.itacademy.s04.t01.level3.entities;
+
+import java.util.UUID;
+
+public class User {
+
+    private UUID id;
+    private String name;
+    private String email;
+
+    public User(){
+        this.id = UUID.randomUUID();
+    }
+
+    public User(String name, String email) {
+        this.id = UUID.randomUUID();
+        this.name = name;
+        this.email = email;
+    }
+
+    public UUID getId() {return id;}
+    public void setId(UUID id) { this.id = id; }
+
+    public String getName() {return name;}
+    public void setName(String name) { this.name = name; }
+
+    public String getEmail() {return email;}
+    public void setEmail(String email) {this.email = email;}
+}
